@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teo Distribución SpA | Distribución de alimentos y bebidas</title>
+<meta name="description" content="Teo Distribución SpA distribuye alimentos y bebidas para almacenes, minimarkets y clientes que compran por mayor. Pedidos por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#10283c;
+  --paper:#f6f8f9;
+  --line:#d5dde2;
+  --green:#17694f;
+  --sun:#f2b705;
+  --muted:#4a5d6b;
+  --font:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--ink:#eef3f6;--paper:#0d1d2b;--line:#27394a;--green:#4fc29a;--muted:#a3b3bf}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:1.0625rem;line-height:1.6}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+header{padding:1.25rem 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.brand{font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+header a.tel{color:var(--ink);text-decoration:none;font-weight:600}
+header a.tel:hover{text-decoration:underline}
+.hero{padding:4.5rem 0 3.5rem}
+h1{font-size:clamp(2.4rem,8vw,4.2rem);line-height:1.02;letter-spacing:-.03em;font-weight:800;margin:0 0 1.25rem;max-width:14ch}
+.lead{font-size:1.25rem;color:var(--muted);max-width:34rem;margin:0 0 2rem}
+.btn{display:inline-block;background:var(--sun);color:#10283c;font-weight:800;text-decoration:none;padding:.95rem 1.6rem;border-radius:.4rem;border:2px solid #10283c}
+.btn:hover{background:#ffd23f}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+h2{font-size:1.6rem;letter-spacing:-.02em;margin:0 0 1rem}
+p{margin:0 0 1rem;max-width:38rem}
+ul{margin:0;padding-left:1.2rem;max-width:38rem}
+li{margin-bottom:.4rem}
+dl{display:grid;grid-template-columns:8rem 1fr;gap:.6rem 1rem;margin:0}
+dt{font-weight:600;color:var(--muted)}
+dd{margin:0}
+dd a{color:var(--green);font-weight:600}
+.fill{background:#fff3b0;color:#10283c;padding:0 .25rem;border-radius:.2rem}
+footer{border-top:1px solid var(--line);padding:1.75rem 0 2.5rem;font-size:.9rem;color:var(--muted)}
+footer p{margin:0 0 .3rem;max-width:none}
+@media (max-width:30rem){dl{grid-template-columns:1fr}dt{margin-top:.5rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="brand">Teo Distribución SpA</span>
+    <a class="tel" href="tel:+56962330370">+56 9 6233 0370</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="hero">
+      <h1>Alimentos y bebidas, directo a tu negocio.</h1>
+      <p class="lead">Distribuimos alimentos y bebidas de marcas reconocidas a almacenes, minimarkets y clientes que compran por mayor en la zona urbana de la Región Metropolitana.</p>
+      <a class="btn" href="https://wa.me/56962330370?text=Hola%2C%20quiero%20recibir%20el%20cat%C3%A1logo%20y%20la%20lista%20de%20precios.">Pedir el catálogo por WhatsApp</a>
+    </div>
+
+    <section id="quienes-somos">
+      <h2>Quiénes somos</h2>
+      <p>Teo Distribución SpA es una empresa chilena dedicada a la distribución de alimentos y bebidas. Abastecemos a comercios y también atendemos a clientes particulares con pedidos por mayor.</p>
+    </section>
+
+    <section id="que-ofrecemos">
+      <h2>Qué ofrecemos</h2>
+      <ul>
+        <li>Alimentos y bebidas de marcas reconocidas</li>
+        <li>Venta por mayor</li>
+        <li>Pedidos por WhatsApp</li>
+        <li>Despacho en toda la Región Metropolitana</li>
+      </ul>
+    </section>
+
+    <section id="pedidos">
+      <h2>Cómo hacer un pedido</h2>
+      <p>Escríbenos por WhatsApp al +56 9 6233 0370. Te enviamos el catálogo y la lista de precios, y coordinamos el despacho.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <dl>
+        <dt>WhatsApp</dt><dd><a href="https://wa.me/56962330370">+56 9 6233 0370</a></dd>
+        <dt>Correo</dt><dd><a href="mailto:daislavaras@gmail.com">daislavaras@gmail.com</a></dd>
+        <dt>Dirección</dt><dd>Antonio Bellet 193, Providencia, Región Metropolitana</dd>
+        <dt>Horario</dt><dd>Lunes a sábado</dd>
+        <dt>Instagram</dt><dd><a href="https://www.instagram.com/teodistribucionspa">@teodistribucionspa</a></dd>
+      </dl>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Teo Distribución SpA · RUT 78.467.081-3</p>
+    <p>Antonio Bellet 193, Providencia, Región Metropolitana</p>
+    <p>© 2026 Teo Distribución SpA. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
